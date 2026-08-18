@@ -1,3 +1,4 @@
-print('hello world')
-print('hello world')
-print('hello world')
+import numpy as np
+a = np.array([[1, 2, 3], [4, 5, 6]])
+b = np.array([[7, 8, 3], [10, 11, 12]])
+print(np.cross(a, b))
